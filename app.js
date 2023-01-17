@@ -28,13 +28,13 @@ function modal_088() {
         //CARPETA mis fotos 
         '<a href="https://drive.google.com/drive/folders/1NCj-tvXd_sOokFDdb-BDTel-7lJbw_Sk?usp=share_link">' +
         '<button class="bt-msj" >Ver Fotos <i class="fa-solid fa-image blu"></i></button></a>' +
+          //CARPETA lhuis
+        '<a href="https://drive.google.com/drive/folders/1JnHhs6NElfP0Vrx0B2rOAjhAU_EBPWct?usp=share_link" >' + 
+        '<button class="bt-msj" >Fotos con lhuis<i class="fa-solid fa-image blu"></i></button></a>',
+           /* 
         //CARPETA video
         '<a href="https://drive.google.com/drive/folders/1190kgr-TePxfo_klEKpKZhvM7JOIg20x?usp=share_link" >' + 
         '<button class="bt-msj" >Ver Videos<i class="fa-solid fa-video blu"></i></button></a>'+
-        //CARPETA lhuis
-        '<a href="https://drive.google.com/drive/folders/1JnHhs6NElfP0Vrx0B2rOAjhAU_EBPWct?usp=share_link" >' + 
-        '<button class="bt-msj" >Otro<i class="fa-solid fa-folder-open blu"></i></button></a>',
-        /*
         //CARPETA 1 
         '<a href="lapp7">' +
         '<button class="bt-msj" >Ver Fotos <i class="fa-solid fa-image blu"></i></button></a>' +
