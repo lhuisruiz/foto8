@@ -151,14 +151,14 @@ const enviarFormulario = () => {
     let numero = document.getElementById('numero').value;
 
 
-    var win = window.open(`https://wa.me/54${numero}?text=Mis Fotos App Web:%20lapp6%0APara que el enlace se active me tienes que ajenar`, '_blank');
+    var win = window.open(`https://wa.me/54${numero}?text=Mis Fotos App Web:%20https://bit.ly/3CSEKFO%0APara que el enlace se active me tienes que ajenar`, '_blank');
 
 }
 //SIN AJENDAR 
 evento.addEventListener('click', enviarFormulario)
 let botonWspp = document.querySelector('#botonWspp');
 botonWspp.addEventListener('click', function () {
-    location.href = "https://wa.me/?text=lapp6"
+    location.href = "https://wa.me/?text=https://bit.ly/3CSEKFO"
 });
 
 //COMPARTIR SHEAR
@@ -168,7 +168,7 @@ shareBtn.addEventListener('click', event => {
         //drive
         navigator.share({
             text: 'Instala la App web "Mis fotos": ',
-            url: 'lapp6'
+            url: 'https://bit.ly/3CSEKFO'
         }).then(() => {
             console.log('Gracias por compartir mis fotos!');
         })
